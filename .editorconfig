@@ -1,0 +1,20 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = false # doesn't work yet
+insert_final_newline = false # doesn't work yet
+
+[*.md]
+insert_final_newline = true
+
+[*.{js,java,go,c,cpp,tex}]
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{md,c,cpp,tex}]
+indent_style = space
+indent_size = 3
