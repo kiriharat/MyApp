@@ -1,11 +1,12 @@
 {
-  "name": "express-sample",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app"
-  },
-  "dependencies": {
-    "express": "*"
-  }
+    "name": "express-sample",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "express": "*",
+        "jade": "*"
+    }
 }
